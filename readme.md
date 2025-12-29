@@ -1,6 +1,7 @@
 # SSHuttle via Windows
 Configure a Debian machine to route network through a Windows host using `sshuttle`.  
-Not all ssh setup and configuration details are included. Plenty of better places for that.
+Use case is a Windows PC connecting to a remote Debian server and using `sshuttle` to provide temporary web access to the remote machine.  
+Not all ssh setup and configuration details are included. Plenty of better places for that.  
 ### Windows Host (Gateway)
 1.  **OpenSSH Server**: Ensure the OpenSSH Server is installed and running.
 2.  **OpenSSH Client**: Ensure the OpenSSH Client is installed.
