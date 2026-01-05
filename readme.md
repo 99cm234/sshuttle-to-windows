@@ -16,6 +16,7 @@ pipx ensurepath
 pipx install sshuttle
 ```
 > **Note**: You may need to restart your shell after `pipx ensurepath` for the changes to take effect.
+> **Note**" Ensure a recent version of sshuttle is installed. Not all the older versions will work here.
 ## Usage
 1.  **SSH into the Debian machine**.
 2.  Run the `sshuttle` command below to start tunneling traffic through the Windows host.
